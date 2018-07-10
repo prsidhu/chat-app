@@ -1,0 +1,19 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-watch": "nodemon server/server.js",
+    "start": "node server/srever.js"
+  },
+  "engines": {
+    "node": "10.4.1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
